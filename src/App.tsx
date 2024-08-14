@@ -1,10 +1,11 @@
 import './App.css';
+import { RouterProvider } from 'react-router-dom'
+import router from './router';
 
 const App = () => {
   return (
     <div className="content">
-      <h1>Rsbuild with React</h1>
-      <p>Start building amazing things with Rsbuild.</p>
+     <RouterProvider router={router} />
     </div>
   );
 };
