@@ -1,0 +1,40 @@
+/cloudide/workspace/React
+├── README.md
+├── node_modules
+|  ├── @reduxjs
+|  ├── @rsbuild
+|  ├── @types
+├── out.txt
+├── package.json
+├── pnpm-lock.yaml
+├── rsbuild.config.ts
+├── src
+|  ├── App.css
+|  ├── App.tsx
+|  ├── api
+|  |  ├── api.ts
+|  |  └── index.ts
+|  ├── env.d.ts
+|  ├── index.tsx
+|  ├── pages
+|  |  ├── addRecord
+|  |  |  └── index.tsx
+|  |  ├── home
+|  |  |  └── index.tsx
+|  |  ├── recordList
+|  |  |  ├── month.tsx
+|  |  |  └── year.tsx
+|  |  ├── register
+|  |  |  └── Register.tsx
+|  |  └── signin
+|  |     └── index.tsx
+|  ├── router
+|  |  └── index.tsx
+|  └── store
+|     ├── index.ts
+|     └── modules
+|        └── recordList.ts
+└── tsconfig.json
+
+directory: 15 file: 21 symboliclink: 12
+
